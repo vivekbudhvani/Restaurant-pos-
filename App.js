@@ -3,7 +3,7 @@ import { View, Text, TextInput, Button, FlatList, TouchableOpacity, Alert, Activ
 import axios from 'axios';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
-const SERVER = 'http://YOUR_SERVER_IP:4000';
+const SERVER = 'https://restaurant-pos-eufn.onrender.com';
 
 export default function App() {
   const [token, setToken] = useState(null);
